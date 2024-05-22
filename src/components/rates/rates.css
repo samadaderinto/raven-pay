@@ -32,7 +32,7 @@
 }
 
 
-.rates__changes > div {
+/* .rates__changes > div {
 
     border-left: var(--border-bottom);
 }
@@ -40,9 +40,10 @@
 .rates__changes > div:first-child {
     border-right: 0;
     border-left: 0;
-}
+} */
 
 .rates__changes--info > div {
   display: flex;
   justify-items: space-between;
+  align-items: center;
 }
