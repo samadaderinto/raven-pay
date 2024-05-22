@@ -4,7 +4,7 @@ import "./tab-list.css"
 import { TabProps } from "../../types/tab";
 
 
-const TabList: FC<TabProps> = (props) => {
+export const TabList: FC<TabProps> = (props) => {
     return (
         <div className="tab">
             <div className="tab-list">
@@ -14,5 +14,3 @@ const TabList: FC<TabProps> = (props) => {
 
     )
 }
-
-export default TabList;
