@@ -1,16 +1,22 @@
-import { Header } from "../../layouts";
-import { Outlet } from "react-router-dom";
-import { Transact } from "../../components";
+import React, {FC} from 'react'
+
 import "./home.css";
+import { Outlet } from 'react-router-dom';
+import { ModeProps } from '../../types/mode';
+import { Transact } from '../../components/transact/transact';
+import { Header } from '../../layouts/header/header';
+
+const Home: FC<ModeProps> = (props) => {
 
 
-export const Home = () => {
     return (
-        <div className="home">
-            <Header />
-            <Outlet />
-            <Transact />
-
-        </div>
+      <div className="home"> 
+        <Header />
+        <Outlet />
+        <Transact />
+      </div>
     );
-};
+  };
+
+export default Home;
+  
