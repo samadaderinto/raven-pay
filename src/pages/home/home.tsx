@@ -6,11 +6,11 @@ import { ModeProps } from '../../types/mode';
 import { Transact } from '../../components/transact/transact';
 import { Header } from '../../layouts/header/header';
 
-const Home: FC<ModeProps> = () => {
+const Home: FC<ModeProps> = ({mode, setMode}) => {
 
 
     return (
-      <div className="home"> 
+      <div className="home" style={{background: mode === "light" ? "#ffffff" : "#eeeeee"}}> 
         <Header />
         <Outlet />
         <Transact />
