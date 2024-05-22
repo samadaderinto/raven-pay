@@ -1,5 +1,6 @@
 .transact {
-    padding: var(--padding) var(--padding) 0 var(--padding);
+    padding: var(--padding);
+    margin-bottom: 0;
     background: #17181B;
     
 }

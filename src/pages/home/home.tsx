@@ -16,7 +16,6 @@ const Home: FC<ModeProps> = ({mode}) => {
         <Header mode={mode} />
         <Rates/>
         <Data/>
-
         <Transact />
       </div>
     );

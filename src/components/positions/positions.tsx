@@ -3,6 +3,6 @@ import "./positions.css"
 
 export const Positions = () => {
   return (
-    <div>positions</div>
+    <div className="positions">positions</div>
   )
 }

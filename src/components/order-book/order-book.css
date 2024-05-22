@@ -1,0 +1,10 @@
+.order-book {
+    margin-top: var(--padding);
+}
+
+.order-book__filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

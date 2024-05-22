@@ -7,6 +7,7 @@ import { TabProps } from "../../types/tab";
 export const TabList: FC<TabProps> = (props) => {
     const handleTabClick = (value) => {
         props.setValue(value)
+        
     }
 
     return (
