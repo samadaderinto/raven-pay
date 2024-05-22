@@ -1,6 +1,8 @@
 .rates {
     padding: var(--padding);
     border-bottom: var(--border-bottom);
+    background: #17181B;
+    margin-bottom: var(--padding);
 }
 
 .rates__conversion {
@@ -40,6 +42,7 @@
     border-left: 0;
 }
 
-.rates__changes--info {
-
+.rates__changes--info > div {
+  display: flex;
+  justify-items: space-between;
 }

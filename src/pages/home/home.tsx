@@ -1,4 +1,4 @@
-import {FC, SetStateAction} from 'react'
+import {FC} from 'react'
 
 
 import { Outlet } from 'react-router-dom';
@@ -13,7 +13,7 @@ const Home: FC<ModeProps> = ({mode}) => {
 
 
     return (
-      <div className="home-container" style={{background: mode === "light" ? "#ffffff" : "#17181B"}}> 
+      <div className="home-container" style={{background: mode === "light" ? "#ffffff" : "#1C2127"}}> 
         <Header mode={mode} />
         <Rates/>
         <Outlet />

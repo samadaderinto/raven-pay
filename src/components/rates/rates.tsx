@@ -20,34 +20,34 @@ export const Rates = () => {
                 <div className="rates__changes--info">
                     <div className="">
                         <TimerIcon />
-                        <span>24h change</span>
+                        <span className="text-grey">24h change</span>
 
                     </div>
                     <div className="">
-                        <h4>520.80</h4>
-                        <span>+1.25%</span>
+                        <h4 className="text-green">520.80</h4>
+                        <span className="text-white">+1.25%</span>
                     </div>
                 </div>
                 <div className="rates__changes--info">
                     <div className="">
                         <HighIcon />
-                        <span>24h change</span>
+                        <span className="text-grey">24h change</span>
                     </div>
 
                     <div className="">
-                        <h4>520.80</h4>
-                        <span>+1.25%</span>
+                        <h4 className="text-white">520.80</h4>
+                        <span className="text-white">+1.25%</span>
                     </div>
                 </div>
                 <div className="rates__changes--info">
                     <div className="">
                         <LowIcon />
-                        <span>24h change</span>
+                        <span className="text-grey">24h change</span>
 
                     </div>
                     <div className="">
-                        <h4>520.80</h4>
-                        <span>+1.25%</span>
+                        <h4 className="text-white">520.80</h4>
+                        <span className="text-white">+1.25%</span>
                     </div>
                 </div>
 
