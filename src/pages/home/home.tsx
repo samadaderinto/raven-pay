@@ -1,4 +1,4 @@
-import {FC} from 'react'
+import {FC, SetStateAction} from 'react'
 
 
 import { Outlet } from 'react-router-dom';
@@ -14,7 +14,7 @@ const Home: FC<ModeProps> = ({mode}) => {
 
     return (
       <div className="home-container" style={{background: mode === "light" ? "#ffffff" : "#17181B"}}> 
-        <Header />
+        <Header mode={mode} />
         <Rates/>
         <Outlet />
         <Transact />

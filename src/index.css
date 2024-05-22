@@ -3,6 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --padding: 30px;
+  --border-bottom: 1px solid #262932;
+
  
 
   font-synthesis: none;
