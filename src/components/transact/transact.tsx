@@ -30,10 +30,10 @@ export const Transact = () => {
   ];
   return (
     <div className="transact">
-      <TabList tabs={tabList} />
-      <TabItem value={value} setValue={setValue} children={<OpenOrders/>} />
-      <TabItem value={value} setValue={setValue} children={<Positions/>} />
-      <TabItem value={value} setValue={setValue} children={<OrderHistory/>} />
+      <TabList tabs={tabList} setValue={setValue}/>
+      {value === "order" && <TabItem value={value} children={<OpenOrders />} />}
+      {value === "history" && <TabItem value={value} children={<Positions />} />}
+      {value === "position" && <TabItem value={value} children={<OrderHistory />} />}
     </div>
   )
 }

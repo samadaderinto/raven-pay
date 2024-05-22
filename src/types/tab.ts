@@ -9,10 +9,10 @@ export type TabProp = {
 
 export type TabProps = {
   tabs: TabProp[];
+  setValue?: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export type TabItemProps = {
     value: string;
-    setValue?: React.Dispatch<React.SetStateAction<string>>;
     children: ReactNode
 }
