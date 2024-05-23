@@ -8,3 +8,9 @@
     align-items: center;
 
 }
+
+.order-book__table {
+  border: none;
+  border-collapse: collapse;
+
+}

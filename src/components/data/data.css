@@ -1,5 +1,5 @@
 .data {
     padding: var(--padding);
     background: #17181B;
-    margin-bottom: var(--padding);
+    padding-bottom: var(--padding);
 }

@@ -1,0 +1,21 @@
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding) 0;
+    background: #262B31;
+}
+
+.action__btn {
+    margin: 0 10px;
+    min-width: 200px;
+
+}
+
+.action__btn--1 {
+    background: #25C26E;
+}
+
+.action__btn--2 {
+    background: #FF554A;
+}
