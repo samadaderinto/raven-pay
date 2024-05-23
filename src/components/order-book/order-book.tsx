@@ -23,8 +23,8 @@ export const OrderBook = () => {
           <td>Amounts(BTC)</td>
         </th>
         <th>
-        <td>Total</td>
-          </th>
+           <td>Total</td>
+        </th>
       </thead>
 
       <tbody>
@@ -53,7 +53,6 @@ export const OrderBook = () => {
           <td></td>
           <td></td>
         </tr>
-
       </tbody>
     </table>
   </div>);
