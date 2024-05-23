@@ -8,6 +8,7 @@ import { Rates } from '../../components/rates/rates';
 import "./home.css";
 import { Data } from '../../components/data/data';
 import { Action } from '../../components/action/action';
+// import { PopUp } from '../../components/popup/popup';
 
 const Home: FC<ModeProps> = ({mode}) => {
 
@@ -19,6 +20,7 @@ const Home: FC<ModeProps> = ({mode}) => {
         <Data/>
         <Transact />
         <Action />
+        {/* <PopUp/> */}
       </div>
     );
   };

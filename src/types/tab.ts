@@ -9,7 +9,7 @@ export type TabProp = {
 
 export type TabProps = {
   tabs: TabProp[];
-  setValue?: React.Dispatch<React.SetStateAction<string>>;
+  setValue: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export type TabItemProps = {

@@ -4,7 +4,7 @@
     align-items: center;
     padding: var(--padding);
     border-bottom: var(--border-bottom);
-    background: #17181B;
+    
 }
 
 .header__nav {
