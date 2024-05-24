@@ -9,8 +9,9 @@ import { TabList } from "../tab-list/tab-list";
 import "./data.css"
 
 export const Data = () => {
+    
     const [value, setValue] = useState<string>("chart")
-
+    
 
     const tabList: TabProp[] = [
         {
