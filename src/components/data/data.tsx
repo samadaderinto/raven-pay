@@ -32,7 +32,7 @@ export const Data = () => {
 
     return (<div className="data">
         <TabList tabs={tabList} setValue={setValue} />
-        {value === "chart" && <TabItem value={"chart"}><Chart /></TabItem>}
+        {value === "chart" && <TabItem value={"chart"}><Chart data={[]} /></TabItem>}
         {value === "book" && <TabItem value={"book"}><OrderBook /></TabItem>}
         {value === "recent" && <TabItem value={"recent"}><Recents /></TabItem>}
     </div>);
