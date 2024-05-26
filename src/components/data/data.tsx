@@ -11,7 +11,23 @@ import "./data.css"
 export const Data = () => {
     
     const [value, setValue] = useState<string>("chart")
-    
+    const sampleData = [
+        {
+          x: new Date('2023-05-01').getTime(),
+          o: 230,
+          h: 240,
+          l: 220,
+          c: 235,
+        },
+        {
+          x: new Date('2023-05-02').getTime(),
+          o: 235,
+          h: 245,
+          l: 225,
+          c: 240,
+        },
+        // Add more data points as needed
+      ];
 
     const tabList: TabProp[] = [
         {
@@ -32,7 +48,7 @@ export const Data = () => {
 
     return (<div className="data">
         <TabList tabs={tabList} setValue={setValue} />
-        {value === "chart" && <TabItem value={"chart"}><Chart data={[]} /></TabItem>}
+        {value === "chart" && <TabItem value={"chart"}><Chart data={sampleData} /></TabItem>}
         {value === "book" && <TabItem value={"book"}><OrderBook /></TabItem>}
         {value === "recent" && <TabItem value={"recent"}><Recents /></TabItem>}
     </div>);

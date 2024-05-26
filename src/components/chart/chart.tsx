@@ -46,8 +46,8 @@ export const Chart: FC<ChartProps> = ({data}) => {
     ],
   };
 
-
-  return <ReactChartJS type='candlestick' data={chartData} options={options} />;
+  // options={options}
+  return <ReactChartJS type='candlestick' data={chartData}  />;
    
   
 }
