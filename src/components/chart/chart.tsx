@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Chart as ChartJS, registerables } from 'chart.js';
-import {  CandlestickElement } from 'chartjs-chart-financial';
+import { CandlestickElement } from 'chartjs-chart-financial';
 import { Chart as ReactChartJS } from 'react-chartjs-2';
 import 'chartjs-adapter-date-fns';
 import "./chart.css";
