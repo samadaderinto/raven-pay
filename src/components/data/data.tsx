@@ -26,7 +26,14 @@ export const Data = () => {
           l: 225,
           c: 240,
         },
-        // Add more data points as needed
+        {
+            x: new Date('2023-05-02').getTime(),
+            o: 235,
+            h: 245,
+            l: 225,
+            c: 240,
+          },
+       
       ];
 
     const tabList: TabProp[] = [

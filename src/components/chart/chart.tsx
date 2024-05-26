@@ -8,31 +8,31 @@ import { ChartProps } from '../../types/chart';
 
 ChartJS.register(...registerables, CandlestickElement);
 
-export const Chart: FC<ChartProps> = ({data}) => {
-  const options = {
-    responsive: true,
-    scales: {
-      x: {
-        type: 'time' as const,
-        time: {
-          unit: 'day',
-        },
-        ticks: {
-          source: 'auto' as const,
-          maxRotation: 0,
-          autoSkip: true,
-        },
-      },
-      y: {
-        beginAtZero: false,
-      },
-    },
-    plugins: {
-      legend: {
-        display: false,
-      },
-    },
-  };
+export const Chart: FC<ChartProps> = (data) => {
+  // const options = {
+  //   responsive: true,
+  //   scales: {
+  //     x: {
+  //       type: 'time' as const,
+  //       time: {
+  //         unit: 'day',
+  //       },
+  //       ticks: {
+  //         source: 'auto' as const,
+  //         maxRotation: 0,
+  //         autoSkip: true,
+  //       },
+  //     },
+  //     y: {
+  //       beginAtZero: false,
+  //     },
+  //   },
+  //   plugins: {
+  //     legend: {
+  //       display: false,
+  //     },
+  //   },
+  // };
 
   const chartData = {
     datasets: [
