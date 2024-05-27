@@ -2,8 +2,6 @@ import './App.css'
 import { useState } from 'react';
 import { Routes, Route } from "react-router-dom";
 import { AppContextProvider } from './utils/contexts';
-
-
 import Home from './pages/home/home';
 
 
